@@ -206,6 +206,9 @@ extern __IO u32 bDeviceState;
 *******************************************************************************/
 int main(void)
 {
+	GPIO_InitTypeDef GPIO_InitStructure;
+
+
 	/* System Clocks Configuration */
 	RCC_Configuration();
 
@@ -222,6 +225,10 @@ int main(void)
 	REG_GPIOB_CRH = 0x33333333;	// PB8 - 15
 	REG_GPIOC_CRH = 0x33444444;	// PC14, 15
 
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;//긴급 복구 모드
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPD;
+	GPIO_Init(GPIOB, &GPIO_InitStructure);
 
 
 	/* NVIC configuration */
