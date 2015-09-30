@@ -230,6 +230,14 @@ int main(void)
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPD;
 	GPIO_Init(GPIOB, &GPIO_InitStructure);
 
+	GPIO_InitStructure.GPIO_Pin = USB_DISCONNECT_PIN;/*test for USB disconnect*/
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;// GPIO_Speed_50MHz;//GPIO_Speed_10MHz; PC13~15 is limited their' speed to 2Mhz
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+	GPIO_Init(USB_DISCONNECT_PORT, &GPIO_InitStructure);
+
+	GPIO_SetBits(USB_DISCONNECT_PORT, USB_DISCONNECT_PIN);//USB Pull-up must be disabled(go to High) during system power on
+
+
 
 	/* NVIC configuration */
 	NVIC_Configuration();
@@ -308,9 +316,9 @@ int main(void)
 	TxDString("\r\n");
 //#endif
 
-	Delay(100);
+	Delay(200);
 	PowerOff();
-	Delay(100);
+	Delay(200);
 
 
 	//-- √ ±‚
