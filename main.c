@@ -24,6 +24,26 @@
 #include "stm32f10x_lib.h"
 #include "USBInit.h"
 
+
+//-- RCC (reset and clock control )
+//
+#define REG_RCC_BASE					0x40021000
+#define REG_RCC_CR						(*(volatile unsigned long *)(REG_RCC_BASE + 0x0000))
+#define REG_RCC_CFGR					(*(volatile unsigned long *)(REG_RCC_BASE + 0x0004))
+#define REG_RCC_CIR						(*(volatile unsigned long *)(REG_RCC_BASE + 0x0008))
+#define REG_RCC_APB2RSTR				(*(volatile unsigned long *)(REG_RCC_BASE + 0x000C))
+#define REG_RCC_APB1RSTR				(*(volatile unsigned long *)(REG_RCC_BASE + 0x0010))
+#define REG_RCC_AHBENR					(*(volatile unsigned long *)(REG_RCC_BASE + 0x0014))
+#define REG_RCC_APB2ENR					(*(volatile unsigned long *)(REG_RCC_BASE + 0x0018))
+#define REG_RCC_APB1ENR					(*(volatile unsigned long *)(REG_RCC_BASE + 0x001C))
+#define REG_RCC_BDCR					(*(volatile unsigned long *)(REG_RCC_BASE + 0x0020))
+#define REG_RCC_CSR						(*(volatile unsigned long *)(REG_RCC_BASE + 0x0024))
+#define REG_RCC_AHBSTR					(*(volatile unsigned long *)(REG_RCC_BASE + 0x0028))
+#define REG_RCC_CFGR2					(*(volatile unsigned long *)(REG_RCC_BASE + 0x002C))
+
+
+
+
 /* Private typedef -----------------------------------------------------------*/
 typedef enum {FAILED = 0, PASSED = !FAILED} TestStatus;
 
@@ -237,6 +257,16 @@ int main(void)
 	TxDHex32(JumpAddress);
 	TxDString("\r\n");
 //#endif
+
+
+
+
+	//-- √ ±‚
+	//
+	REG_RCC_APB1RSTR = 0xFFFFFFFF;
+	REG_RCC_APB2RSTR = 0xFFFFFFFF;
+	REG_RCC_APB1RSTR = 0x00000000;
+	REG_RCC_APB2RSTR = 0x00000000;
 
 
 	Jump_To_Application = (pFunction) JumpAddress;
