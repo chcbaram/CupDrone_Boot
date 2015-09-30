@@ -141,6 +141,8 @@ volatile u8  gbDXLReadPointer;
 volatile u8  gbpDXLDataBuffer[256];
 void ClearBuffer256(void);
 
+extern RESULT PowerOff();
+
 
 vu32 gwAddressPointer=0, gwRxTotalCount=0, gwReceivedCheckSumFromHost=0;
 vu32 gwCalculatedCheckSum=0;
@@ -258,7 +260,8 @@ int main(void)
 	TxDString("\r\n");
 //#endif
 
-
+	PowerOff();
+	Delay(100);
 
 
 	//-- √ ±‚
