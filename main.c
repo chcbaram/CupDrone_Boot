@@ -317,19 +317,16 @@ int main(void)
 	TxDString("\r\n");
 //#endif
 
-	GPIO_SetBits(USB_DISCONNECT_PORT, USB_DISCONNECT_PIN);//USB Pull-up must be disabled(go to High) during system power on
 	Delay(200);
-	PowerOff();
+	UsbVcpDisconnect();
 	Delay(200);
-
-
 	//-- 초기
 	//
 	REG_RCC_APB1RSTR = 0xFFFFFFFF;
 	REG_RCC_APB2RSTR = 0xFFFFFFFF;
 	REG_RCC_APB1RSTR = 0x00000000;
 	REG_RCC_APB2RSTR = 0x00000000;
-
+	Delay(200);
 
 	Jump_To_Application = (pFunction) JumpAddress;
 	Jump_To_Application();
@@ -829,11 +826,23 @@ void SerialMonitor(void)
 					USB_TxDString("\r\n");
 				}*/
 
+
 				UsbVcpDisconnect();
 #ifdef DEBUG_ENABLE_BY_USART2
 				TxDString("USB Power Off!\r\n");
 #endif
-				Delay(100);
+
+				//GPIO_SetBits(USB_DISCONNECT_PORT, USB_DISCONNECT_PIN);//USB Pull-up must be disabled(go to High) during system power on
+				Delay(200);
+
+				//-- 초기
+				//
+				REG_RCC_APB1RSTR = 0xFFFFFFFF;
+				REG_RCC_APB2RSTR = 0xFFFFFFFF;
+				REG_RCC_APB1RSTR = 0x00000000;
+				REG_RCC_APB2RSTR = 0x00000000;
+
+				Delay(200);
 				Jump_To_Application();
 			}
 			else if(StringCompare(bpCommand,"AT&RST",6)){
