@@ -42,7 +42,36 @@
 #define REG_RCC_CFGR2					(*(volatile unsigned long *)(REG_RCC_BASE + 0x002C))
 
 
+//-- GPIO
+//
+#define REG_GPIOA_BASE					0x40010800
+#define REG_GPIOA_CRL					(*(volatile unsigned long *)(REG_GPIOA_BASE + 0x0000))
+#define REG_GPIOA_CRH					(*(volatile unsigned long *)(REG_GPIOA_BASE + 0x0004))
+#define REG_GPIOA_IDR					(*(volatile unsigned long *)(REG_GPIOA_BASE + 0x0008))
+#define REG_GPIOA_ODR					(*(volatile unsigned long *)(REG_GPIOA_BASE + 0x000C))
+#define REG_GPIOA_BSRR					(*(volatile unsigned long *)(REG_GPIOA_BASE + 0x0010))
+#define REG_GPIOA_BRR					(*(volatile unsigned long *)(REG_GPIOA_BASE + 0x0014))
+#define REG_GPIOA_LCKR					(*(volatile unsigned long *)(REG_GPIOA_BASE + 0x0018))
 
+
+#define REG_GPIOB_BASE					0x40010C00
+#define REG_GPIOB_CRL					(*(volatile unsigned long *)(REG_GPIOB_BASE + 0x0000))
+#define REG_GPIOB_CRH					(*(volatile unsigned long *)(REG_GPIOB_BASE + 0x0004))
+#define REG_GPIOB_IDR					(*(volatile unsigned long *)(REG_GPIOB_BASE + 0x0008))
+#define REG_GPIOB_ODR					(*(volatile unsigned long *)(REG_GPIOB_BASE + 0x000C))
+#define REG_GPIOB_BSRR					(*(volatile unsigned long *)(REG_GPIOB_BASE + 0x0010))
+#define REG_GPIOB_BRR					(*(volatile unsigned long *)(REG_GPIOB_BASE + 0x0014))
+#define REG_GPIOB_LCKR					(*(volatile unsigned long *)(REG_GPIOB_BASE + 0x0018))
+
+
+#define REG_GPIOC_BASE					0x40011000
+#define REG_GPIOC_CRL					(*(volatile unsigned long *)(REG_GPIOC_BASE + 0x0000))
+#define REG_GPIOC_CRH					(*(volatile unsigned long *)(REG_GPIOC_BASE + 0x0004))
+#define REG_GPIOC_IDR					(*(volatile unsigned long *)(REG_GPIOC_BASE + 0x0008))
+#define REG_GPIOC_ODR					(*(volatile unsigned long *)(REG_GPIOC_BASE + 0x000C))
+#define REG_GPIOC_BSRR					(*(volatile unsigned long *)(REG_GPIOC_BASE + 0x0010))
+#define REG_GPIOC_BRR					(*(volatile unsigned long *)(REG_GPIOC_BASE + 0x0014))
+#define REG_GPIOC_LCKR					(*(volatile unsigned long *)(REG_GPIOC_BASE + 0x0018))
 
 /* Private typedef -----------------------------------------------------------*/
 typedef enum {FAILED = 0, PASSED = !FAILED} TestStatus;
@@ -179,6 +208,15 @@ int main(void)
 {
 	/* System Clocks Configuration */
 	RCC_Configuration();
+
+	//-- GPIO 기본값 설정
+	//
+	REG_GPIOA_CRL = 0x33333333;	// PA0 - 7
+	REG_GPIOA_CRH = 0x333334B3;	// PA8 - 15    //PA9,10,11,12는 가각 UART, USB에 할당됨
+	REG_GPIOB_CRL = 0x33333333;	// PB0 - 7
+	REG_GPIOB_CRH = 0x33333333;	// PB8 - 15
+	REG_GPIOC_CRH = 0x33444444;	// PC14, 15
+
 
 	/* Configure the GPIO ports */
 	GPIO_Configuration();
