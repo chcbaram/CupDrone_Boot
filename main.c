@@ -260,6 +260,7 @@ int main(void)
 	TxDString("\r\n");
 //#endif
 
+	Delay(100);
 	PowerOff();
 	Delay(100);
 
