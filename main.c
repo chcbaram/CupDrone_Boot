@@ -217,6 +217,7 @@ int main(void)
 	/* Configure the GPIO ports */
 	GPIO_Configuration();
 
+#if 0
 	//-- GPIO 기본값 설정
 	//
 	REG_GPIOA_CRL = 0x33333333;	// PA0 - 7
@@ -236,7 +237,7 @@ int main(void)
 	GPIO_Init(USB_DISCONNECT_PORT, &GPIO_InitStructure);
 
 	GPIO_SetBits(USB_DISCONNECT_PORT, USB_DISCONNECT_PIN);//USB Pull-up must be disabled(go to High) during system power on
-
+#endif
 
 
 	/* NVIC configuration */
@@ -316,6 +317,7 @@ int main(void)
 	TxDString("\r\n");
 //#endif
 
+	GPIO_SetBits(USB_DISCONNECT_PORT, USB_DISCONNECT_PIN);//USB Pull-up must be disabled(go to High) during system power on
 	Delay(200);
 	PowerOff();
 	Delay(200);
