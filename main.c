@@ -209,6 +209,11 @@ int main(void)
 	/* System Clocks Configuration */
 	RCC_Configuration();
 
+
+
+	/* Configure the GPIO ports */
+	GPIO_Configuration();
+
 	//-- GPIO 기본값 설정
 	//
 	REG_GPIOA_CRL = 0x33333333;	// PA0 - 7
@@ -218,8 +223,6 @@ int main(void)
 	REG_GPIOC_CRH = 0x33444444;	// PC14, 15
 
 
-	/* Configure the GPIO ports */
-	GPIO_Configuration();
 
 	/* NVIC configuration */
 	NVIC_Configuration();
