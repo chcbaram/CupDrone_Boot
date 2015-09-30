@@ -219,9 +219,9 @@ int main(void)
 
 		RCC_ClearFlag();
 		while(bDeviceState != CONFIGURED);  //Wait until USB CDC is fully initialized
-#ifdef DEBUG_ENABLE_BY_USART2
+//#ifdef DEBUG_ENABLE_BY_USART2
 		TxDString("Start serial monitor\r\n");
-#endif
+//#endif
 		SerialMonitor();
 	}
 
@@ -232,11 +232,13 @@ int main(void)
 	u32 JumpAddress;
 
 	JumpAddress =  *(u32 *)(FLASH_START_ADDRESS+ 4);
-#ifdef DEBUG_ENABLE_BY_USART2
+//#ifdef DEBUG_ENABLE_BY_USART2
 	TxDString("\r\n Go: 0x");
 	TxDHex32(JumpAddress);
 	TxDString("\r\n");
-#endif
+//#endif
+
+
 	Jump_To_Application = (pFunction) JumpAddress;
 	Jump_To_Application();
 	return 0;
