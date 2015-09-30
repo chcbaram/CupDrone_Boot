@@ -196,7 +196,7 @@ int main(void)
 	USB_Init();
 
 
-	TxDString("Boot Start..\r\n");
+	TxDString("Boot Start.. V151001\r\n");
 
 
 	if(GPIO_ReadInputDataBit(GPIOB , GPIO_Pin_0) == SET )

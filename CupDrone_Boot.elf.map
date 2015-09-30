@@ -851,7 +851,7 @@ LOAD /Users/imac/Downloads/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-
  *(.flashtext)
                 0x0000000008000134                . = ALIGN (0x4)
 
-.text           0x0000000008000134     0x26ec
+.text           0x0000000008000134     0x26f4
                 0x0000000008000134                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000134       0x6e lib/libstm32.a(cortexm3_macro.o)
@@ -1502,31 +1502,31 @@ LOAD /Users/imac/Downloads/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-
  .rodata        0x000000000800271f       0x14 lib/libstm32.a(stm32f10x_rcc.o)
  *(.rodata*)
  .rodata.str1.1
-                0x0000000008002733       0xab main.o
-                                         0xae (size before relaxing)
+                0x0000000008002733       0xb3 main.o
+                                         0xb6 (size before relaxing)
  .rodata.str1.1
-                0x00000000080027de       0x42 usb_endp.o
+                0x00000000080027e6       0x42 usb_endp.o
  *(.glue_7)
  .glue_7        0x0000000000000000        0x0 linker stubs
  *(.glue_7t)
  .glue_7t       0x0000000000000000        0x0 linker stubs
-                0x0000000008002820                . = ALIGN (0x4)
-                0x0000000008002820                _etext = .
-                0x0000000008002820                _sidata = _etext
+                0x0000000008002828                . = ALIGN (0x4)
+                0x0000000008002828                _etext = .
+                0x0000000008002828                _sidata = _etext
 
-.vfp11_veneer   0x0000000008002820        0x0
+.vfp11_veneer   0x0000000008002828        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x0000000008002820        0x0
+.v4_bx          0x0000000008002828        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x0000000008002820        0x0
+.iplt           0x0000000008002828        0x0
  .iplt          0x0000000000000000        0x0 /Users/imac/Downloads/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
 
-.rel.dyn        0x0000000008002820        0x0
+.rel.dyn        0x0000000008002828        0x0
  .rel.iplt      0x0000000000000000        0x0 /Users/imac/Downloads/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
 
-.data           0x0000000020000000       0xe4 load address 0x0000000008002820
+.data           0x0000000020000000       0xe4 load address 0x0000000008002828
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1551,10 +1551,10 @@ LOAD /Users/imac/Downloads/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-
  *fill*         0x00000000200000e2        0x2 
                 0x00000000200000e4                _edata = .
 
-.igot.plt       0x00000000200000e4        0x0 load address 0x0000000008002904
+.igot.plt       0x00000000200000e4        0x0 load address 0x000000000800290c
  .igot.plt      0x0000000000000000        0x0 /Users/imac/Downloads/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
 
-.bss            0x00000000200000e4      0x63c load address 0x0000000008002904
+.bss            0x00000000200000e4      0x63c load address 0x000000000800290c
                 0x00000000200000e4                . = ALIGN (0x4)
                 0x00000000200000e4                _sbss = .
  *(.bss)
@@ -1621,7 +1621,7 @@ LOAD /Users/imac/Downloads/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-
                 0x0000000020000720                PROVIDE (end, _ebss)
                 0x0000000020000720                PROVIDE (_end, _ebss)
 
-._usrstack      0x0000000020000720      0x100 load address 0x0000000008002f40
+._usrstack      0x0000000020000720      0x100 load address 0x0000000008002f48
                 0x0000000020000720                . = ALIGN (0x4)
                 0x0000000020000720                _susrstack = .
                 0x0000000020000820                . = (. + _Minimum_Stack_Size)
