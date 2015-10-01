@@ -320,6 +320,8 @@ int main(void)
 	Delay(200);
 	UsbVcpDisconnect();
 	Delay(200);
+
+	/*
 	//-- √ ±‚
 	//
 	REG_RCC_APB1RSTR = 0xFFFFFFFF;
@@ -327,7 +329,7 @@ int main(void)
 	REG_RCC_APB1RSTR = 0x00000000;
 	REG_RCC_APB2RSTR = 0x00000000;
 	Delay(200);
-
+	*/
 	Jump_To_Application = (pFunction) JumpAddress;
 	Jump_To_Application();
 	return 0;
@@ -832,6 +834,7 @@ void SerialMonitor(void)
 				TxDString("USB Power Off!\r\n");
 #endif
 
+				/*
 				//GPIO_SetBits(USB_DISCONNECT_PORT, USB_DISCONNECT_PIN);//USB Pull-up must be disabled(go to High) during system power on
 				Delay(200);
 
@@ -841,7 +844,7 @@ void SerialMonitor(void)
 				REG_RCC_APB2RSTR = 0xFFFFFFFF;
 				REG_RCC_APB1RSTR = 0x00000000;
 				REG_RCC_APB2RSTR = 0x00000000;
-
+				*/
 				Delay(200);
 				Jump_To_Application();
 			}
