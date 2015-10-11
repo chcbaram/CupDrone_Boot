@@ -29,11 +29,18 @@ const u8 Virtual_Com_Port_DeviceDescriptor[] =
     0x00,   /* bDeviceSubClass */
     0x00,   /* bDeviceProtocol */
     0x40,   /* bMaxPacketSize0 */
-    0xF1,   // idVendorL
+
+    0xF2,   // idVendorL
     0xFF,   //
-    0x48,   // idProductL
+    0x49,   // idProductL
     0xFF,   //
-    //0x83,
+
+    //0xF1,   // idVendorL
+    //0xFF,   //
+    //0x48,   // idProductL
+    //0xFF,   //
+
+	//0x83,
     //0x04,   /* idVendor = 0x0483 */
     //0x40,
     //0x57,   /* idProduct = 0x5740 */

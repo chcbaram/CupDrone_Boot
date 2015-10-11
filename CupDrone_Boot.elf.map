@@ -26,22 +26,22 @@ lib/libstm32.a(usb_mem.o)     USBInit.o (UserToPMABufferCopy)
 lib/libstm32.a(usb_regs.o)    usb_prop.o (SetBTABLE)
 lib/libstm32.a(usb_sil.o)     usb_prop.o (USB_SIL_Init)
 lib/libstm32.a(usb_int.o)     usb_istr.o (CTR_LP)
-c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
-                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o (exit)
-c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
-                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
-c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
-                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o (__libc_init_array)
-c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
-                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o (memset)
-c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
-                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
-c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
-                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o) (atexit)
-c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
-                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
-c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
-                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o (exit)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o (__libc_init_array)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o (memset)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o) (atexit)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
 
 Allocating common symbols
 Common symbol       size              file
@@ -73,29 +73,29 @@ wInterrupt_Mask     0x2               lib/libstm32.a(usb_init.o)
 
 Discarded input sections
 
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
- .init          0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
- .fini          0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+ .init          0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+ .fini          0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
  .ARM.attributes
-                0x00000000       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
- .text          0x00000000       0x98 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
- .data          0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
- .bss           0x00000000       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
- .init_array    0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
- .fini_array    0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
- .eh_frame      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
- .jcr           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+                0x00000000       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+ .text          0x00000000       0x98 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .data          0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .bss           0x00000000       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .init_array    0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .fini_array    0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .eh_frame      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .jcr           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
  .ARM.attributes
-                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
- .text          0x00000000      0x114 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
- .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
- .ARM.exidx     0x00000000        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .text          0x00000000      0x114 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
  .ARM.attributes
-                0x00000000       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+                0x00000000       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
  .text          0x00000000        0x0 main.o
  .text.ClearBuffer256
                 0x00000000       0x14 main.o
@@ -610,90 +610,90 @@ Discarded input sections
  .data          0x00000000        0x0 lib/libstm32.a(usb_int.o)
  .bss           0x00000000        0x0 lib/libstm32.a(usb_int.o)
  .text.CTR_HP   0x00000000       0x70 lib/libstm32.a(usb_int.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
- .text.exit     0x00000000       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
- .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
  .ARM.attributes
-                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
  .data.impure_data
-                0x00000000      0x428 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                0x00000000      0x428 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
  .data._impure_ptr
-                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
  .rodata.str1.4
-                0x00000000        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                0x00000000        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
  .rodata._global_impure_ptr
-                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
  .text.__libc_init_array
-                0x00000000       0x80 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
- .debug_frame   0x00000000       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+                0x00000000       0x80 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+ .debug_frame   0x00000000       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
  .ARM.attributes
-                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
- .text.memset   0x00000000       0xf4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
- .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .text.memset   0x00000000       0xf4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
  .text.startup.register_fini
-                0x00000000       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                0x00000000       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
  .init_array.00000
-                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
  .text.__call_exitprocs
-                0x00000000      0x16c c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
- .debug_frame   0x00000000       0x68 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                0x00000000      0x16c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000000       0x68 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
- .text.atexit   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
- .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+ .text.atexit   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
  .ARM.attributes
-                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
  .text.__libc_fini_array
-                0x00000000       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
- .debug_frame   0x00000000       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+                0x00000000       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+ .debug_frame   0x00000000       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
  .ARM.attributes
-                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
  .text.__register_exitproc
-                0x00000000       0xe0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
- .debug_frame   0x00000000       0x3c c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+                0x00000000       0xe0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000000       0x3c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
  .ARM.attributes
-                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
- .eh_frame      0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
- .jcr           0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .jcr           0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
  .ARM.attributes
-                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
- .init          0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
- .fini          0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+                0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+ .init          0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+ .fini          0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
  .ARM.attributes
-                0x00000000       0x18 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+                0x00000000       0x18 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
 
 Memory Configuration
 
@@ -709,9 +709,9 @@ EXTMEMB3         0x00000000         0x00000000         xr
 
 Linker script and memory map
 
-LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
-LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
-LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
 LOAD main.o
 LOAD stm32f10x_it.o
 LOAD usb_desc.o
@@ -721,11 +721,11 @@ LOAD usb_prop.o
 LOAD USBInit.o
 LOAD lib/libstm32.a
 START GROUP
-LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3\libgcc.a
-LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a
 END GROUP
-LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
-LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
                 0x00000400                __Stack_Size = 0x400
                 0x00000400                PROVIDE (_Stack_Size, __Stack_Size)
                 0x20004c00                __Stack_Init = (_estack - __Stack_Size)
@@ -1521,10 +1521,10 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm
  .v4_bx         0x00000000        0x0 linker stubs
 
 .iplt           0x08002844        0x0
- .iplt          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .iplt          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
 
 .rel.dyn        0x08002844        0x0
- .rel.iplt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .rel.iplt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
 
 .data           0x20000000       0xe4 load address 0x08002844
                 0x20000000                . = ALIGN (0x4)
@@ -1552,7 +1552,7 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm
                 0x200000e4                _edata = .
 
 .igot.plt       0x200000e4        0x0 load address 0x08002928
- .igot.plt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .igot.plt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
 
 .bss            0x200000e4      0x63c load address 0x08002928
                 0x200000e4                . = ALIGN (0x4)
@@ -1679,12 +1679,13 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x00000000       0x70
+.comment        0x00000000       0xe0
  *(.comment)
  .comment       0x00000000       0x70 main.o
                                  0x71 (size before relaxing)
  .comment       0x00000000       0x71 stm32f10x_it.o
- .comment       0x00000000       0x71 usb_desc.o
+ .comment       0x00000070       0x70 usb_desc.o
+                                 0x71 (size before relaxing)
  .comment       0x00000000       0x71 usb_endp.o
  .comment       0x00000000       0x71 usb_istr.o
  .comment       0x00000000       0x71 usb_prop.o
@@ -1920,51 +1921,51 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm
  .debug_frame   0x00002110       0x3c lib/libstm32.a(usb_sil.o)
  .debug_frame   0x0000214c       0x48 lib/libstm32.a(usb_int.o)
 
-.debug_str      0x00000000     0x3da1
+.debug_str      0x00000000     0x3e1d
  *(.debug_str)
  .debug_str     0x00000000      0xcc3 main.o
                                 0xd52 (size before relaxing)
  .debug_str     0x00000cc3      0x587 stm32f10x_it.o
                                 0x7fc (size before relaxing)
- .debug_str     0x0000124a       0xc8 usb_desc.o
-                                0x1ba (size before relaxing)
- .debug_str     0x00001312       0xa4 usb_endp.o
+ .debug_str     0x0000124a      0x144 usb_desc.o
+                                0x1b6 (size before relaxing)
+ .debug_str     0x0000138e       0xa4 usb_endp.o
                                 0x32e (size before relaxing)
- .debug_str     0x000013b6      0x101 usb_istr.o
+ .debug_str     0x00001432      0x101 usb_istr.o
                                 0x268 (size before relaxing)
- .debug_str     0x000014b7      0x595 usb_prop.o
+ .debug_str     0x00001533      0x595 usb_prop.o
                                 0x987 (size before relaxing)
- .debug_str     0x00001a4c       0xe6 USBInit.o
+ .debug_str     0x00001ac8       0xe6 USBInit.o
                                 0x32e (size before relaxing)
- .debug_str     0x00001b32      0x2d4 lib/libstm32.a(stm32f10x_flash.o)
+ .debug_str     0x00001bae      0x2d4 lib/libstm32.a(stm32f10x_flash.o)
                                 0x4e9 (size before relaxing)
- .debug_str     0x00001e06       0x82 lib/libstm32.a(stm32f10x_iwdg.o)
+ .debug_str     0x00001e82       0x82 lib/libstm32.a(stm32f10x_iwdg.o)
                                 0x1d0 (size before relaxing)
- .debug_str     0x00001e88      0x1c8 lib/libstm32.a(stm32f10x_gpio.o)
+ .debug_str     0x00001f04      0x1c8 lib/libstm32.a(stm32f10x_gpio.o)
                                 0x45e (size before relaxing)
- .debug_str     0x00002050      0x476 lib/libstm32.a(stm32f10x_nvic.o)
+ .debug_str     0x000020cc      0x476 lib/libstm32.a(stm32f10x_nvic.o)
                                 0x6be (size before relaxing)
- .debug_str     0x000024c6      0x2fd lib/libstm32.a(stm32f10x_rcc.o)
+ .debug_str     0x00002542      0x2fd lib/libstm32.a(stm32f10x_rcc.o)
                                 0x58e (size before relaxing)
- .debug_str     0x000027c3      0x9d8 lib/libstm32.a(stm32f10x_tim.o)
+ .debug_str     0x0000283f      0x9d8 lib/libstm32.a(stm32f10x_tim.o)
                                 0xd7f (size before relaxing)
- .debug_str     0x0000319b       0xac lib/libstm32.a(stm32f10x_systick.o)
+ .debug_str     0x00003217       0xac lib/libstm32.a(stm32f10x_systick.o)
                                 0x233 (size before relaxing)
- .debug_str     0x00003247      0x2ba lib/libstm32.a(stm32f10x_usart.o)
+ .debug_str     0x000032c3      0x2ba lib/libstm32.a(stm32f10x_usart.o)
                                 0x629 (size before relaxing)
- .debug_str     0x00003501       0x6f lib/libstm32.a(stm32f10x_vector.o)
+ .debug_str     0x0000357d       0x6f lib/libstm32.a(stm32f10x_vector.o)
                                 0x126 (size before relaxing)
- .debug_str     0x00003570       0x4f lib/libstm32.a(usb_init.o)
+ .debug_str     0x000035ec       0x4f lib/libstm32.a(usb_init.o)
                                 0x4ae (size before relaxing)
- .debug_str     0x000035bf      0x425 lib/libstm32.a(usb_core.o)
+ .debug_str     0x0000363b      0x425 lib/libstm32.a(usb_core.o)
                                 0xa51 (size before relaxing)
- .debug_str     0x000039e4       0x4a lib/libstm32.a(usb_mem.o)
+ .debug_str     0x00003a60       0x4a lib/libstm32.a(usb_mem.o)
                                 0x164 (size before relaxing)
- .debug_str     0x00003a2e      0x30f lib/libstm32.a(usb_regs.o)
+ .debug_str     0x00003aaa      0x30f lib/libstm32.a(usb_regs.o)
                                 0x4ec (size before relaxing)
- .debug_str     0x00003d3d       0x3c lib/libstm32.a(usb_sil.o)
+ .debug_str     0x00003db9       0x3c lib/libstm32.a(usb_sil.o)
                                 0x185 (size before relaxing)
- .debug_str     0x00003d79       0x28 lib/libstm32.a(usb_int.o)
+ .debug_str     0x00003df5       0x28 lib/libstm32.a(usb_int.o)
                                 0x18b (size before relaxing)
 
 .debug_loc      0x00000000     0x60dd
@@ -2676,7 +2677,7 @@ Virtual_Com_Port_init                             usb_prop.o
 WWDG_IRQHandler                                   stm32f10x_it.o
                                                   lib/libstm32.a(stm32f10x_vector.o)
 WriteFlash64                                      usb_endp.o
-_Jv_RegisterClasses                               c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+_Jv_RegisterClasses                               c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
 __BASEPRICONFIG                                   lib/libstm32.a(cortexm3_macro.o)
                                                   lib/libstm32.a(stm32f10x_nvic.o)
 __DMB                                             lib/libstm32.a(cortexm3_macro.o)
@@ -2707,49 +2708,49 @@ __USBCDC_ISR                                      usb_istr.o
                                                   stm32f10x_it.o
 __WFE                                             lib/libstm32.a(cortexm3_macro.o)
 __WFI                                             lib/libstm32.a(cortexm3_macro.o)
-__bss_end__                                       c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
-__bss_start__                                     c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
-__call_exitprocs                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
-__deregister_frame_info                           c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
-__dso_handle                                      c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
-__fini_array_end                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
-__fini_array_start                                c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
-__init_array_end                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
-__init_array_start                                c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
-__libc_fini                                       c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
-__libc_fini_array                                 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
-__libc_init_array                                 c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
-__preinit_array_end                               c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
-__preinit_array_start                             c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
-__register_exitproc                               c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
-__register_frame_info                             c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
-__stack                                           c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+__bss_end__                                       c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+__bss_start__                                     c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+__call_exitprocs                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+__deregister_frame_info                           c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+__dso_handle                                      c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+__fini_array_end                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+__fini_array_start                                c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+__init_array_end                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+__init_array_start                                c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+__libc_fini                                       c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+__libc_fini_array                                 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+__libc_init_array                                 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+__preinit_array_end                               c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+__preinit_array_start                             c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+__register_exitproc                               c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+__register_frame_info                             c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+__stack                                           c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
 _ebss                                             lib/libstm32.a(stm32f10x_vector.o)
 _edata                                            lib/libstm32.a(stm32f10x_vector.o)
 _estack                                           lib/libstm32.a(stm32f10x_vector.o)
-_exit                                             c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
-_fini                                             c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
-_global_impure_ptr                                c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
-_impure_ptr                                       c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
-_init                                             c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
-_mainCRTStartup                                   c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+_exit                                             c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+_fini                                             c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+_global_impure_ptr                                c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+_impure_ptr                                       c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+_init                                             c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+_mainCRTStartup                                   c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
 _sbss                                             lib/libstm32.a(stm32f10x_vector.o)
 _sdata                                            lib/libstm32.a(stm32f10x_vector.o)
 _sidata                                           lib/libstm32.a(stm32f10x_vector.o)
-_start                                            c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
-atexit                                            c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+_start                                            c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+atexit                                            c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
 bDeviceState                                      USBInit.o
                                                   usb_prop.o
                                                   usb_endp.o
@@ -2757,9 +2758,9 @@ bDeviceState                                      USBInit.o
 bIntPackSOF                                       usb_istr.o
 comstatetemp                                      usb_prop.o
 dxl_get_baudrate                                  main.o
-exit                                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
-free                                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+exit                                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+free                                              c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
 g_pfnVectors                                      lib/libstm32.a(stm32f10x_vector.o)
 gbCount                                           main.o
 gbDXLReadPointer                                  main.o
@@ -2790,14 +2791,14 @@ gwWriteProtectedPages                             main.o
 gwpUSARTBuffer                                    main.o
                                                   usb_endp.o
                                                   stm32f10x_it.o
-hardware_init_hook                                c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+hardware_init_hook                                c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
 linecoding                                        usb_prop.o
 main                                              main.o
                                                   lib/libstm32.a(stm32f10x_vector.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
-malloc                                            c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
-memset                                            c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
-                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+malloc                                            c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+memset                                            c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+                                                  c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
 pEpInt_IN                                         usb_istr.o
                                                   lib/libstm32.a(usb_int.o)
 pEpInt_OUT                                        usb_istr.o
@@ -2809,7 +2810,7 @@ pProperty                                         lib/libstm32.a(usb_init.o)
                                                   lib/libstm32.a(usb_core.o)
 pUser_Standard_Requests                           lib/libstm32.a(usb_init.o)
                                                   lib/libstm32.a(usb_core.o)
-software_init_hook                                c:/program files (x86)/gnu tools arm embedded/4.9 2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+software_init_hook                                c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
 wInterrupt_Mask                                   lib/libstm32.a(usb_init.o)
                                                   lib/libstm32.a(usb_sil.o)
                                                   USBInit.o
